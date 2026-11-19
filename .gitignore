@@ -1,0 +1,17 @@
+# Datos: nunca al repositorio (viven en el Drive del equipo)
+data/raw/
+data/interim/
+*.zip
+*.vcf
+WhatsApp*.txt
+
+# Clave del hash
+.env
+
+# Python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# Datos procesados: se comparten por el Drive del equipo (quitar esta línea si deciden versionarlos aquí)
+data/processed/
